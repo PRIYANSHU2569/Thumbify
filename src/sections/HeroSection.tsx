@@ -5,9 +5,9 @@ import { motion } from "motion/react";
 
 export default function HeroSection() {
     const specialFeatures = [
-        "No credit card",
-        "30 days free trial",
-        "Setup in 10 minutes",
+        "No design skills needed",
+        "Fast generation with AI",
+        "High CTR templates",
     ];
 
     return (
@@ -23,7 +23,7 @@ export default function HeroSection() {
                     NEW
                 </span>
                 <p className="flex items-center gap-1">
-                    <span>Try 30 days free trial option </span>
+                    <span>Generate your first thumbnail for free</span>
                     <ChevronRightIcon size={16} className="group-hover:translate-x-0.5 transition duration-300" />
                 </p>
             </motion.a>
@@ -33,8 +33,8 @@ export default function HeroSection() {
                 viewport={{ once: true }}
                 transition={{ type: "spring", stiffness: 240, damping: 70, mass: 1 }}
             >
-                Free template to start your{" "}
-                <span className="move-gradient px-3 rounded-xl text-nowrap">Next.js site.</span>
+                AI Thumbnail Generate for your{" "}
+                <span className="move-gradient px-3 rounded-xl text-nowrap">Videos.</span>
             </motion.h1>
             <motion.p className="text-base text-center text-slate-200 max-w-lg mt-6"
                 initial={{ y: 50, opacity: 0 }}
